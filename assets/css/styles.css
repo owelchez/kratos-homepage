@@ -1,0 +1,71 @@
+body{
+  margin: 0 auto;
+  overflow: auto;
+  background-color: #bac3c4;
+  text-align: center;
+  width: 900px;
+}
+
+p{
+  margin: 0 auto;
+}
+
+.top-container{
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container{
+  margin-top: 50px;
+}
+
+.bottom-container{
+  margin-top: 30px;
+}
+
+.kratos-profile{
+  width: 70px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.bladesOfChaosTop{
+  width: 150px;
+  position: absolute;
+  right: 140px;
+  top: 20px;
+}
+
+.bladesOfChaosBottom{
+  transform: rotate(360deg) scaleX(-1);
+  width: 150px;
+  position: absolute;
+  top: 440px;
+  left:140px;
+}
+
+.gow-front{
+  width: 150px;
+}
+
+.army{
+  width: 70px;
+  border-radius: 10px;
+}
+
+.atlas-quake{
+  margin-top: 15px;
+  width: 70px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.mountain{
+  position: absolute;
+  width: 600px;
+  z-index: -1;
+  right: 150px;
+  top: 165px;
+  margin-right: auto;
+}
