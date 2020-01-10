@@ -10,6 +10,13 @@ p{
   margin: 0 auto;
 }
 
+hr{
+ border: dotted #557d82 6px;
+ border-bottom: none;
+ width: 4%;
+ margin: 100px auto;
+}
+
 .top-container{
   text-align: center;
   position: relative;
@@ -24,9 +31,20 @@ p{
   margin-top: 30px;
 }
 
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row p {
+  text-align: left;
+  line-height: 2;
+}
+
 .kratos-profile{
-  width: 70px;
-  height: 90px;
+  margin-top: 60px;
+  width: 110px;
+  height: 130px;
   border-radius: 10px;
 }
 
@@ -50,15 +68,19 @@ p{
 }
 
 .army{
-  width: 70px;
+  width: 110px;
+  height: 130px;
   border-radius: 10px;
+  float: right;
+  margin-left: 10px;
 }
 
 .atlas-quake{
-  margin-top: 15px;
-  width: 70px;
-  height: 90px;
+  width: 110px;
+  height: 130px;
   border-radius: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 .mountain{
@@ -68,4 +90,12 @@ p{
   right: 150px;
   top: 165px;
   margin-right: auto;
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
 }
